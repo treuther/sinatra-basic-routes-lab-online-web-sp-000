@@ -4,4 +4,9 @@ class App < Sinatra::Base
   get '/name' do
     "My name is _"
   end
+
+  get '/name' do
+    "My name is _"
+  end
+  
 end
